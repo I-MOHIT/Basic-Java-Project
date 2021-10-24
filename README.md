@@ -1,17 +1,15 @@
-#Basic Java Project
+# Basic Java Project
 
-##Compiling
+## Compiling
 
-... 
-    shell
+```shell
 ./gradlew jar
-...
+```
 
-##Running
+## Running
 
-Go to folder  /build/libs
+Go to folder '/build/libs'
 
-...
-    shell
+```shell
 java -jar Basic-Project-1.0-SNAPSHOT.jar
-...
+```
