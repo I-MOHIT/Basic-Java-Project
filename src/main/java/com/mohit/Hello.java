@@ -7,7 +7,10 @@ public class Hello {
         StringBuilder greetingBuilder = new StringBuilder();
         greetingBuilder.append(gr.getRandomGreeting());
         greetingBuilder.append(" ");
-        greetingBuilder.append(args[0]);
+        if(args.length>0){
+            greetingBuilder.append(args[0]);
+        }
+        greetingBuilder.append("Buddy");
         greetingBuilder.append("!");
 
         System.out.println(greetingBuilder);
